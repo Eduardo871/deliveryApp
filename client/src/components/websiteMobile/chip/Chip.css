@@ -1,0 +1,21 @@
+.chipContainer
+{
+    width: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #efefef;
+    border-radius: 50px;
+    padding: 12px;
+}
+.chipContainer:hover
+{
+    background-color: black;
+    color: #fff;
+}
+.chipContainer p 
+{
+    font-size: 15px;
+    margin: 0 3.5px 0 0;
+    padding: 0;
+}

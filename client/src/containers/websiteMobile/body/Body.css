@@ -1,0 +1,19 @@
+.bodyContainer
+{
+    width: 100%;
+    height: 35%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bodyMore
+{
+    color: #aeaeae;
+    width: 25%;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+

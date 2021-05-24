@@ -1,0 +1,32 @@
+.searchContainer {
+    position: relative;
+    width: 85%;
+    height: 30px;
+    margin: 20px auto;
+    background-color: #f6f6f6;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+.searchContainer .input {
+    width: 88%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 20px;
+    z-index: 0;
+    outline: none;
+    background: none;
+    border: none;
+}
+.searchContainer i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 10px 14px;
+    color: #888888;
+}

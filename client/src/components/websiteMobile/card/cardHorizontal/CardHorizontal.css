@@ -1,0 +1,84 @@
+.cardHorizontalContainer
+{
+    display: flex;
+    width: 80%;
+    height: 110px;
+    position: relative;
+    background-color: #efefef;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px  auto;
+
+}
+
+.cardHorizontalContainer .imgContent img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    bottom: 0;
+    margin: auto;
+}
+
+.cardHorizontalContainer  .textContent 
+{
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    bottom: 0;
+    margin: auto;
+    font-size: 10px;
+}
+.cardHorizontalContainer  .textContent  h1
+{
+    font-weight:400;
+    margin-bottom: 10px;
+}
+
+.cardHorizontalContainer  .textContent  p
+{
+    font-size: 12px;
+}
+.cardHorizontalContainer .priceAndBtnContent
+{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.cardHorizontalContainer .priceAndBtnContent button
+{
+    border: none;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    color: #fff;
+    background: #000;
+    position: relative;
+    border-radius: 4px;
+    font-weight: 900;
+   
+}
+.cardHorizontalContainer .priceAndBtnContent button span
+{
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+}
+.cardHorizontalContainer .priceAndBtnContent div 
+{
+    display: flex;
+    justify-content: space-around;
+    width: 80px;
+}
